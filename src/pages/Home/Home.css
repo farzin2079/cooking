@@ -1,0 +1,7 @@
+.home {
+    max-width: 1200px;
+    margin: 0px auto;
+}
+.home.dark h2{
+    color: #e4e4e4;
+}

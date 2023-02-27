@@ -1,0 +1,33 @@
+.recepie {
+    margin: 40px auto;
+    background-color: #fff;
+    box-sizing: border-box;
+    max-width: 1200px;
+    padding: 40px;
+    text-align: center;
+}
+.recepie ul{
+   display: flex;
+   padding: 0;
+   justify-content: center;
+   margin-top: 0;
+}
+.recepie li{
+    list-style-type: none;
+    margin-right: 10px;
+    color: #777;
+}
+.recepie li::after{
+    content: ",";
+}
+.recepie li:last-child::after{
+    content: ".";
+}
+.method{
+    text-align: left;
+    line-height: 1.5em;
+}
+.recepie.dark{
+    background-color: #555;
+    color: #e4e4e4 ;
+}
